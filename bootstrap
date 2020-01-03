@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -t wss -p :443 ––parent-ws-method chacha20-ietf-poly1305 ––parent-ws-password pass
+./proxy http -p :$PORT -t ws ––parent-ws-method chacha20-ietf-poly1305 ––parent-ws-password pass
