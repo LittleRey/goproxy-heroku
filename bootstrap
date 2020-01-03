@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -p :$PORT -t ws ––local-ws-method chacha20-ietf-poly1305 ––local-ws-password pass
+./proxy http -p :$PORT -t ws ––local-ws-password pass
